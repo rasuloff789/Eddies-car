@@ -1,0 +1,388 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: 'PT Sans' , 'Arial' ,sans-serif;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.site-nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #222222;
+}
+
+
+.site-nav-df{
+    display: flex;
+    align-items: center;
+}
+
+.site-logo-link{
+    display: block;
+}
+
+
+.working-time{
+    width: 93px;
+    display: flex;
+    font-size: 13px;
+    margin: 0;
+    margin-left: 350px;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+} 
+
+
+
+.working-time span{
+    
+    font-size: 13px;
+    
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 24px;
+    
+    
+    
+}
+
+
+.header-tel-numbers{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+
+.header-tel-number {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.order-to-tel-number{
+    
+    background-image: -moz-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
+    background-image: -webkit-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
+    background-image: -ms-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
+    font-size: 12px;
+    
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 25px 20px;
+    
+    margin-left: auto;
+}
+
+.belaz-2465-addvertisement{
+    background-image: url('../images/header-bottom-part-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* display: block; */
+}
+
+.info-belaz-2465{
+    padding: 100px 120px;
+    display: inline-block;
+    background-color: rgb(247, 181, 22);
+    width: 570px;
+    
+    max-height:900px ;
+    overflow: scroll;
+    
+}
+
+
+.belaz-2465-header {
+    width: 330px;
+    font-size: 40px;
+    margin: 0 0 50px 0 ;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.375;
+    text-align: left;
+    
+}
+
+
+.belaz-2465-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    width: 275px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.characters-of-belaz-2465-list{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.character-of-belaz-2465{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.character-of-belaz-2465 p{
+    font-size: 18px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    width: 264px;
+    display: inline-block;
+}
+
+
+
+.character-of-belaz-2465:not(:last-child){
+    margin-bottom: 50px;
+}
+
+
+.character-of-belaz-2465::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../images/piggy-bank.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center center;
+    height: 35px;
+    width: 35px;
+    margin-right: 25px;
+    
+}
+
+.character-of-belaz-2465:nth-child(2)::before{
+    background-image: url('/images/delivery-truck-silhouette.png');
+}
+
+.character-of-belaz-2465:nth-child(3)::before{
+    background-image: url('/images/election-event-on-a-calendar-with-star-symbol.png');
+}
+
+.character-of-belaz-2465:nth-child(4)::before{
+    background-image: url('/images/medal.png');
+}
+
+
+.part-of-belaz-75710{
+    padding: 100px 0;
+    background-image: url('../images/background-belaz-75310.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.belaz-75310-info{
+    text-align: right;
+}
+
+.belaz-75310-info-text{
+    width: 450px;
+    margin-top: 0;
+    display: inline-block;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: right;
+}
+
+
+.email , .tel{
+    font-size: 13px;
+    padding: 30px 45px 30px 30px ;
+    width: 370px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: rgb(129, 129, 129);
+    /* text-transform: uppercase; */
+    line-height: 1.2;
+    text-align: left;    
+    content: '';
+    display: inline-block;
+    background-image: url('../images/email-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 335px;  
+}
+.tel{
+    background-image: url('../images/call-icon.png');
+    margin-left: 30px;
+}
+
+.post-part{
+    width: 655px;
+    display: inline-flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.post-text{
+    width: 250px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.post-text span{
+    width: 200px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: right center;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.post-text::after{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/clock-icon.png');
+    background-position:center center ;
+    background-repeat: no-repeat;
+}
+
+.post-part button{
+    background-color: rgb(24, 102, 175);
+    text-align: center;
+    border: none;
+    outline: none;
+    padding:30px 50px ;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 370px;
+}
+
+
+.our-superioritys{
+        background-color: rgb(8, 36, 62);
+       
+}
+
+.our-superioritys-comp{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.superiority-heading{
+        font-size: 36px;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+      margin-top: 0;
+      margin-bottom: 35px;
+}
+
+.superiority-text{
+    display: inline-block;
+    margin-top: 0;
+        font-size: 18px;
+        width: 352px;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 85px;
+       
+}
+
+.our-superiority-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-superiority{
+    width: 180px;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   color: #fff;
+   margin-bottom: auto;
+}
+
+.our-superiority:not(:nth-child(4n)){
+margin-right: 150px;
+}
+
+.our-superiority::before{
+    content: '';
+    background-image: url('../images/engine.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 45px;
+    background-position: center center;
+}
+
+.our-superiority:nth-child(2)::before{
+    background-image: url('../images/dump-truck.png');
+}
+
+.our-superiority:nth-child(3)::before{
+    background-image: url('../images/calendar.png');
+}
+
+.our-superiority:nth-child(4)::before{
+    background-image: url('../images/Forma.png');
+}
