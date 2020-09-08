@@ -415,7 +415,7 @@ body{
     background-image: url('../images/order-details-background.png');
     background-position: top center;
     background-repeat: no-repeat;
-
+    
 }
 
 
@@ -481,9 +481,10 @@ body{
     padding: 30px ;
     width: 370px;
     border: none;
-   color: #fff;
+    color: #fff;
     line-height: 1.2;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -496,9 +497,9 @@ body{
     line-height: 1.2;
     text-align: center;
     
-  }
-  .order-details-bottom-text {
-display: inline-block;
+}
+.order-details-bottom-text {
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 14px;
@@ -506,9 +507,83 @@ display: inline-block;
     line-height: 1.2;
     text-align: center;
     
-  }
-  
-
-
+}
 
 /* --------------------------------------- */
+
+.about-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 95px 0;
+}
+
+
+.services-part-heading{
+    display: inline-block;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    width: 650px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.services-lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;margin: 0;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+}
+
+
+.services-list{
+    width: 336px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-bottom: auto;
+    flex-grow: 1;
+}
+
+.services-list:nth-child(3n){
+    margin-right: 0;
+}
+
+.services-list img{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+.services-list-text{
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: center;
+        width: 300px;
+        display: inline-block;
+ margin-top: 0;
+ margin-bottom: 30px;     
+}
+
+
+.services-list-link{
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-decoration: underline;
+        line-height: 1.2;
+        text-align: center;
+      
+      text-transform: uppercase;
+}
