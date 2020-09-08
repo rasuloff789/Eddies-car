@@ -305,8 +305,8 @@ body{
 
 
 .our-superioritys{
-        background-color: rgb(8, 36, 62);
-       
+    background-color: rgb(8, 36, 62);
+    
 }
 
 .our-superioritys-comp{
@@ -315,24 +315,24 @@ body{
 }
 
 .superiority-heading{
-        font-size: 36px;
-        color: rgb(255, 255, 255);
-        line-height: 1.2;
-        text-align: center;
-      margin-top: 0;
-      margin-bottom: 35px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
 .superiority-text{
     display: inline-block;
     margin-top: 0;
-        font-size: 18px;
-        width: 352px;
-        color: rgb(255, 255, 255);
-        line-height: 1.2;
-        text-align: center;
-        margin-bottom: 85px;
-       
+    font-size: 18px;
+    width: 352px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 85px;
+    
 }
 
 .our-superiority-list{
@@ -347,17 +347,17 @@ body{
 
 .our-superiority{
     width: 180px;
-   display: flex;
-   text-align: center;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   color: #fff;
-   margin-bottom: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: auto;
 }
 
 .our-superiority:not(:nth-child(4n)){
-margin-right: 150px;
+    margin-right: 150px;
 }
 
 .our-superiority::before{
@@ -394,9 +394,9 @@ margin-right: 150px;
 .order-form{
     display: flex;
     flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
 }
 
 .human-name{
@@ -407,3 +407,108 @@ padding: 50px 0;
     margin: 0 0 10px 0;
 }
 
+/* index.html */
+
+.order-details{
+    padding: 92px 0;
+    background-color: #0e344e;
+    background-image: url('../images/order-details-background.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.order-details-without-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+
+.order-details-heading{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.order-details-text{
+    margin-top: 0;
+    margin-bottom: 55px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+.order-details-form{
+    margin-top: 0;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-detail-name{
+    
+    font-size: 13px;
+    padding: 30px 45px 30px 30px ;
+    width: 370px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: rgb(129, 129, 129);
+    line-height: 1.2;
+    
+}
+
+.tel-for-details{
+    margin: 0;
+}
+
+.order-details-button{
+    background-color: rgb(247, 181, 22);
+    font-size: 13px;
+    padding: 30px ;
+    width: 370px;
+    border: none;
+   color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+
+.order-details-top-text {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom:25px ;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    
+  }
+  .order-details-bottom-text {
+display: inline-block;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    
+  }
+  
+
+
+
+/* --------------------------------------- */
