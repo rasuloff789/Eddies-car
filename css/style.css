@@ -111,6 +111,7 @@ body{
     background-image: url('../images/header-bottom-part-background.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: auto 100%;
     /* display: block; */
 }
 
@@ -119,9 +120,6 @@ body{
     display: inline-block;
     background-color: rgb(247, 181, 22);
     width: 570px;
-    
-    max-height:900px ;
-    overflow: scroll;
     
 }
 
@@ -293,7 +291,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.post-part button{
+.order-button{
     background-color: rgb(24, 102, 175);
     text-align: center;
     border: none;
@@ -386,3 +384,28 @@ margin-right: 150px;
 .our-superiority:nth-child(4)::before{
     background-image: url('../images/Forma.png');
 }
+
+
+
+/* order.html */
+
+/* ----------------- */
+
+
+
+.order-form{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 50px 0;
+}
+
+.human-name{
+    margin: 0 0 10px 0 ;
+}
+
+.tel-number-order{
+    margin: 0 0 10px 0;
+}
+
