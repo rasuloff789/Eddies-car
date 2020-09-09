@@ -1100,7 +1100,7 @@ body{
 
 .free-consultation{
     background-color: #0d324d;
- 
+    
     
 }
 .free-consultation-cont-for-bgimg{
@@ -1119,7 +1119,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-between;
-  
+    
 }
 
 .free-consultation-heading{
@@ -1189,38 +1189,38 @@ body{
 }
 
 .company-adress-heading{
-        font-size: 30px;
-        color: rgb(0, 0, 0);
-        line-height: 1.2;
-        text-align: center;
-       margin-top: 0;
-       margin-bottom: 100px;
-      display: inline-block;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+    display: inline-block;
 }
 
 
 .company-adress{
-width: 317px;
-height: 15px;
-color: #000000;
-display: inline-block;
-margin-top: 0;
-text-align: center;
-margin-bottom: 34px;
-font-size: 18px;
-font-weight: 400;
+    width: 317px;
+    height: 15px;
+    color: #000000;
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 34px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
 .info-company-section .tell-us{
-width: 208px;
-height: 22px;
-color: #000000;
-display: inline-block;
-font-size: 24px;
-margin-bottom: 0;
-margin-top: 0;
-font-weight: 400;
+    width: 208px;
+    height: 22px;
+    color: #000000;
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
 }
 
 
@@ -1248,12 +1248,12 @@ font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
-width: 209px;
-height: 12px;
-color: #ffffff;
-font-size: 12px;
-font-weight: 400;
-text-transform: uppercase;
+    width: 209px;
+    height: 12px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .when-text .material-icons{
     color: rgb(235, 70, 70);
@@ -1274,20 +1274,20 @@ text-transform: uppercase;
 .tell-we-text{
     margin-top: 0;
     margin-bottom: 12px;
-width: 142px;
-height: 11px;
-color: #ffffff;
-font-size: 13px;
-font-weight: 400;
+    width: 142px;
+    height: 11px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .tell-we-tel{
-width: 160px;
-height: 16px;
-color: #ffffff;
-margin-top: 0;
-margin-bottom: 0;
-font-size: 18px;
-text-decoration: none;
-font-weight: 400;
+    width: 160px;
+    height: 16px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
 }
